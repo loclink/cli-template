@@ -10,7 +10,7 @@
     "cli": "dist/main.js"
   },
   "scripts": {
-    "dev": "pnpm link --global && tsup  --watch",
+    "dev": "tsup --watch",
     "build": "tsc && tsup",
     "release": "dotenv release-it"
   },
